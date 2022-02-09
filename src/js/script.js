@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded',function(){
         formData.append('image', formImage.files[0])
 
         if(error === 0){
-            form.classList.add('_sending')
-            let response = await fetch('sendmail.php',{
-                method:'POST',
-                body:formData
-            })
+            form.classList.add('_sending');
+			let response = await fetch('sendmail.php', {
+				method: 'POST',
+				body: formData
+			});
             if(response.ok){
                 let result = await response.json()
                 alert(result.message)

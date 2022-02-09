@@ -58,12 +58,9 @@
 }
 .sec_list{
     display: flex;
-    align-items: center;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
     margin-bottom: 100px;
     justify-content: center;
 }
@@ -72,6 +69,11 @@
     flex-direction: column;
     align-items: center;
     width: 200px;
+    width: 100px;
+    &:not(:last-child){
+        margin-right: 55px;
+    }
+    
     @media screen and (max-width:480px){
         &:not(:last-child){
             margin-bottom: 20px;
@@ -94,4 +96,11 @@
     font-size: 20px;
     line-height: 1.2;
     margin-top: 20px;
+}
+.link_item_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }

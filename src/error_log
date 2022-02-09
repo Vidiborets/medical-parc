@@ -1,0 +1,16 @@
+[09-Feb-2022 18:07:18 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Не отправлено из-за неправильного формата email-адреса:  (to): a.vidiborets@gmail.com! in /home/workmedo/public_html/phpmailer/src/PHPMailer.php:1146
+Stack trace:
+#0 [internal function]: PHPMailer\PHPMailer\PHPMailer->addAnAddress('to', 'a.vidiborets@gm...', '')
+#1 /home/workmedo/public_html/phpmailer/src/PHPMailer.php(1105): call_user_func_array(Array, Array)
+#2 /home/workmedo/public_html/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'a.vidiborets@gm...', '')
+#3 /home/workmedo/public_html/sendmail.php(16): PHPMailer\PHPMailer\PHPMailer->addAddress('a.vidiborets@gm...')
+#4 {main}
+  thrown in /home/workmedo/public_html/phpmailer/src/PHPMailer.php on line 1146
+[09-Feb-2022 18:07:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Не отправлено из-за неправильного формата email-адреса:  (to): a.vidiborets@gmail.com! in /home/workmedo/public_html/phpmailer/src/PHPMailer.php:1146
+Stack trace:
+#0 [internal function]: PHPMailer\PHPMailer\PHPMailer->addAnAddress('to', 'a.vidiborets@gm...', '')
+#1 /home/workmedo/public_html/phpmailer/src/PHPMailer.php(1105): call_user_func_array(Array, Array)
+#2 /home/workmedo/public_html/phpmailer/src/PHPMailer.php(1003): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', 'a.vidiborets@gm...', '')
+#3 /home/workmedo/public_html/sendmail.php(16): PHPMailer\PHPMailer\PHPMailer->addAddress('a.vidiborets@gm...')
+#4 {main}
+  thrown in /home/workmedo/public_html/phpmailer/src/PHPMailer.php on line 1146

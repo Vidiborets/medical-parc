@@ -35,7 +35,8 @@
 .text{
     width: 615px;
     margin-bottom: 50px;
-    @media screen and (min-width:480px){
+    margin-right: 200px;
+    @media screen and (min-width:480px) and (max-width: 767px){
         width: 480px;
         margin-right: 115px;    
     }
@@ -77,16 +78,6 @@
     font-size: 18px;
     line-height: 1.72;
     color: $color-text;
-}
-.boxTitle{
-    font-family: $primaryfonts;
-    color: #fff;
-    width: 475px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 20px;
 }
 
 .linkContact{
