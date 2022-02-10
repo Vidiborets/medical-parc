@@ -14,10 +14,10 @@
 	//От кого письмо
 	$mail->setFrom('work.medical.org@gmail.com', 'Новая вакансия');
 	//Кому отправить
-	$mail->addAddress('a.vidiborets@gmail.com');
-	$mail->addReplyTo('a.r.kompromis@gmail.com', 'Новая вакансия');
+	$mail->addAddress('larssonternopol@ukr.net');
+	$mail->addReplyTo('info@example.com', 'Новая вакансия');
 	//Тема письма
-	$mail->Subject = 'У вас новая заявка на сайте"';
+	$mail->Subject = 'Добрый день,у вас новая вакансия"';
 
 	//Рука
 	$hand = "Правая";
