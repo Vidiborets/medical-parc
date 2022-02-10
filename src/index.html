@@ -127,53 +127,53 @@
                 Наша допомога на будь якому єтапі.</h2>
             <ul class="sec_list">
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico1.png' alt="doc" width=105 height=105/>
                         <p class="textItem">Заявка на сайті або дзвінок</p>
-                    </a>
+                    </span>
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico2.png' alt="doctype" width=105 height=105/>
-                        <p class="textItem">Консультація з менеджером</p>
-                    </a>
+                        <p class="textItem item_after">Консультація з менеджером</p>
+                    </span>
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico3.png' alt="speak" width=135 height=105/>
-                        <p class="textItem">організація документації для в'їзду та заселення</p>
-                    </a>
+                        <p class="textItem item_after">організація документації для в'їзду та заселення</p>
+                    </span>
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico4.png' alt="speak" width=135 height=105/>
-                        <p class="textItem">медичне стажування та мовні курси</p>
-                    </a>
+                        <p class="textItem item_after">медичне стажування та мовні курси</p>
+                    </span>
                     
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico7.png' alt="house" width=105 height=105/>
-                        <p class="textItem">Медичний іспит - LEK</p>
-                    </a>
+                        <p class="textItem item_after">Медичний іспит - LEK</p>
+                    </span>
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico5.png' alt="house" width=105 height=105/>
-                        <p class="textItem">Нострифікація медичного диплому
+                        <p class="textItem item_after">Нострифікація медичного диплому
                         </p>
-                    </a>
+                    </span>
                 </li>
                 <li class="list_item">
-                    <a class="link_item_list" href="/">
+                    <span class="link_item_list" href="/">
                         <img src='./images/icon/how-ico8.png' alt="house" width=105 height=105/>
-                        <p class="textItem">легальна робота в  медустанові</p>
-                    </a>
+                        <p class="textItem item_after">легальна робота в  медустанові</p>
+                    </span>
                 </li>
             </ul>
         </div>
     </section>
-    <!-- <section>
+    <section>
             <div class="containerInfo">
                 <ul class="info_list">
                     <li class="info_item">
@@ -332,13 +332,15 @@
                     <div class="sectionFormButton">
                         <button type='submit' class="buttonForm">Відправіті</button>
                         <div class="containerFormFile">
-                            <label class="labelFormFile" htmlFor="formImage">
-                            <span class="FormSectionFile">
-                                <img src='./images/icon-attach.svg' alt="Закрепите файл" />
-                            </span>
-                            <span class='formTextButton'>Закрепити файл</span>
-                            <input class="formInputFile" type="file" id="formImage" name="image" accept=".jpg, .png, .gif"/> 
-                            </label>
+                                <div class="box_button">
+                                    <label class="labelFormFile" for="formImage"></label></label>
+                                    <input class="formInputFile" type="file" id="formImage" name="image" accept=".jpg, .png, .gif"> 
+                                    <span class="FormSectionFile">
+                                        <img src='./images/icon-attach.svg' alt="Закрепите файл" />
+                                    </span>
+                                    <span class='formTextButton'>Закрепити резюме</span>
+                                </div>
+                            
                         </div>
                     </div>
                     <div class="form_preview" id='formPreview'></div> 
@@ -356,7 +358,7 @@
                 <a class="linkAwards" href="/">Ad Awards</a>
             </div>
         </footer>
-    </section> -->
+    </section>
   <script src="./js/script.js"></script>
 </body>
 </html>
